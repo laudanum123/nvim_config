@@ -59,6 +59,7 @@ return packer.startup(function(use)
   -- Debugger
   use {"mfussenegger/nvim-dap"}
   use {"rcarriga/nvim-dap-ui"}
+  use {"mfussenegger/nvim-dap-python"}
 
 	-- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
