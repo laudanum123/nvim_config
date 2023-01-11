@@ -99,7 +99,8 @@ return packer.startup(function(use)
 
   -- Godot
   use { "habamax/vim-godot"}
-
+  -- Testing Tools
+  use { "kalekseev/vim-coverage.py"}
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

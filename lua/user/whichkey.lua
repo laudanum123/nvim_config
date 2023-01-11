@@ -204,6 +204,12 @@ local mappings = {
     x = { "<cmd>lua require'dap'.terminate()<cr>", "Terminate" },
     u = { "<cmd>lua require'dap'.step_out()<cr>", "Step Out" },
   },
+
+  r = {
+    name = "Pytest",
+    c = { "<cmd>CoveragePyToggle<cr>", "Toggle Coverage" },
+
+  }
 }
 
 which_key.setup(setup)
