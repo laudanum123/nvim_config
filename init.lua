@@ -21,4 +21,5 @@ require "user.whichkey"
 require "user.autocommands"
 require "user.copilot"
 require "user.dap"
+require "user.godot"
 
